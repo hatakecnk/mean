@@ -1,12 +1,15 @@
 import statistics
-
-inputan = input('Masukkan deret bilangan (pisahkan dengan koma): ')
-data = []
-
-# konversi inputan ke dalam list yg berisi integer
-for bilangan in inputan.split(','):
-    data.append(int(bilangan))
-
-rerata = statistics.mean(data)
-print(f'Data -> {data}')
-print(f'Mean -> {rerata}')
+ 
+data = [48, 68, 74]
+ 
+# Finding Mean
+print("\nMean: ", statistics.mean(data))
+ 
+# Finding Median
+print("Median: ", statistics.median(data))
+ 
+# Finding Single Mode
+print("Single Mode: ", statistics.mode(data))
+ 
+# Finding Multiple Modes
+print("Mode: ", statistics.multimode(data))
