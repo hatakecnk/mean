@@ -1,6 +1,6 @@
 import statistics
  
-data = [48, 68, 74]
+data = [37, 48, 52, 59, 68, 74, 80]
  
 # Finding Mean
 print("\nMean: ", statistics.mean(data))
