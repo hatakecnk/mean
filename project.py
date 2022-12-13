@@ -3,7 +3,6 @@ import sys
 size = MPI.COMM_WORLD.Get_size()
 rank = MPI.COMM_WORLD.Get_rank()
 name = MPI.Get_processor_name()
-data = [37, 48, 52, 59, 68, 74, 80]
  
 # Finding Mean
 print("\nNama Anggota Kelompok:\n1. Aldi Winata\n2. Febry Afriansyah\n3. Fadli Ilhami")
